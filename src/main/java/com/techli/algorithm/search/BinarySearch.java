@@ -1,9 +1,9 @@
-package com.lili.algorithm.search;
+package com.techli.algorithm.search;
 
 import java.util.Arrays;
 
 /**
- * @author LL
+ * @author techli
  * @QQ:1059997113
  * @date 2018年7月9日 下午10:52:21
  * @Description 二分法查找
@@ -15,7 +15,7 @@ public class BinarySearch {
 		Arrays.sort(arr);
 		while (min <= max) {
 			int mid = min + (max - min) / 2;
-			if(value > arr[mid]) {
+			if (value > arr[mid]) {
 				min = mid + 1;
 			} else if (value < arr[mid]) {
 				max = mid - 1;

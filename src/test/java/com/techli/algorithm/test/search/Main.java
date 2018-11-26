@@ -1,10 +1,10 @@
-package com.lili.test.search;
+package com.techli.algorithm.test.search;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Test;
 
-import com.lili.algorithm.search.BinarySearch;
+import com.techli.algorithm.search.BinarySearch;
 
 public class Main {
 
